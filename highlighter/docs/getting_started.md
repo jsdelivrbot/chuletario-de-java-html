@@ -36,7 +36,7 @@ code here
 You can load the JavaScript and CSS for prettify via one URL:
 
 ```HTML
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify/loader/run_prettify.js"></script>
 ```
 
 This will load the entire system and schedule the prettifier to run on page
@@ -53,7 +53,7 @@ arguments) to configure the runner.
 For example:
 
 ```HTML
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
 ```
 
 The above specifies the `lang` parameter to also load the CSS language
